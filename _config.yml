@@ -1,0 +1,38 @@
+# GitHub Pages / Jekyll — SEO и тренды 2026
+# После клонирования замените url и baseurl на свои (см. комментарии ниже)
+
+title: "Мега зеркало — Безопасный и анонимный доступ к сайту"
+description: "Актуальная ссылка на мега зеркало MEGA мориарти. Безопасный доступ через TOR. Мега даркнет маркетплейс, зеркала, регистрация, безопасность."
+url: "" # для User Site: https://ВАШ_ЛОГИН.github.io
+baseurl: "" # для Project Site: /ИМЯ_РЕПОЗИТОРИЯ
+lang: ru
+locale: ru_RU
+encoding: utf-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: pretty
+future: true
+
+# Плагины GitHub Pages (SEO, sitemap, discoverability)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-relative-links
+
+# jekyll-seo-tag: автоматические meta, OG, Twitter Card, canonical
+# Заполняются из title/description страницы и site.*
+twitter:
+  username: "" # опционально
+
+# Исключения из сборки (index.md и страницы в корне — не исключаем)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - node_modules
+  - vendor
